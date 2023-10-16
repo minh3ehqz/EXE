@@ -103,6 +103,30 @@ textarea {
 img {
   max-width: 100%;
 }
+
+.gid{
+  display: grid;
+}
+
+.section{
+  padding-block: 7.5rem;
+}
+
+.section__title{
+  font-size: var(--big-font-size);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.section__title::before{
+  content: attr(data-title);
+  display: block;
+  color: var(--first-color);
+  font-family: var(--second-font);
+  font-size: var(--h2-font-size);
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
 /*=================================== 
 #RESUABLE CSS CLASSES
 ===================================*/

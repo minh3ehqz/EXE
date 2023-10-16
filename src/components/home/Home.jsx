@@ -13,8 +13,8 @@ const Home = () => {
           </p>
           <div className="home__btns">
             <a href="#menu" className="btn">
-              Check Menu
-            </a>
+              Check Menu 
+            </a> 
             <a href="#reservation" className="btn home__btn">
               Book Table
             </a>
