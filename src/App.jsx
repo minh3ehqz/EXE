@@ -10,10 +10,12 @@ import Offer from "./components/offer/Offer";
 import Reservation from "./components/reservation/Reservation";
 import Start from "./components/stats/Start";
 import { Team } from "./components/team/Team";
+import WelcomePopup from "./components/Emotion/EmotionPopup";
 function App() {
   return (
     <>
       <Header />
+      <WelcomePopup/>
       <Home />
       <About/>
       <Feature/>
