@@ -7,6 +7,7 @@ import Header from "./components/heaeder/Header";
 import Home from "./components/home/Home";
 import Menu from "./components/Menu/Menu";
 import Offer from "./components/offer/Offer";
+import Reservation from "./components/reservation/Reservation";
 import Start from "./components/stats/Start";
 import { Team } from "./components/team/Team";
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Gallery />
       <Offer />
       <Team />
+      <Reservation/>
     </>
   );
 }
