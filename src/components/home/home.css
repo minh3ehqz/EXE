@@ -36,7 +36,7 @@
 
 .home__btns{
   display: flex;
-  column-gap: 1.5rem;
+  column-gap: 2rem;
 }
 
 .home__btn{
