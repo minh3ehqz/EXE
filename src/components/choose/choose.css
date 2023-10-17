@@ -1,0 +1,47 @@
+.choose__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.choose__description {
+  margin-bottom: 2rem; /* Giảm khoảng cách giữa mô tả và các mục tiêu chọn */
+}
+
+.choose__details {
+  row-gap: 2rem;
+}
+
+.choose__details-item {
+  display: flex;
+  align-items: center;
+  column-gap: 1.25rem;
+}
+
+.choose__details-img-wrapper {
+  border: 2px dashed var(--title-color);
+  width: 80px; /* Đặt một kích thước tương đối */
+  height: 80px; /* Đặt một kích thước tương đối */
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+
+.choose__details-img {
+  max-width: 50%; /* Đảm bảo hình ảnh không bị kéo rộng */
+  max-height: 100%; /* Đảm bảo hình ảnh không bị kéo cao */
+  border-radius: 10%;
+}
+
+.choose__details-item div:last-child {
+  flex: 1; /* Làm cho phần nội dung co giãn để lấp đầy không gian còn trống */
+}
+
+.choose__details-title {
+  font-size: var(--largest-font-size);
+  margin-bottom: 0.5rem;
+}
+.choose__img{
+  margin-left: 1.25rem;
+  border-radius: 10px;
+}
